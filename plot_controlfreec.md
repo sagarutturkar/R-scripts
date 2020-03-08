@@ -19,7 +19,9 @@ For the genome-wide CNA visualization, we needed a scaled plot with combined chr
 and attempts to achieve combined chromosome plot with uniform Y-scale.
 
 ## How to run:
-I have developed alternative R-script [plot_controlfreec.R]() that uses famous ggplot2 to plot the same data in a different style.
+I have developed alternative R-script [plot_controlfreec.R]() that uses famous ggplot2 to plot the same data in a different style.  
+This script generates the plot for log2 scale as well.  
+Plotting of the BAF is currently not supported. Stay tuned ...
 
 ```
 Rscript --vanilla  plot_controlfreec.R -i HCC1143.arachne_ratio.txt -p ./ -n HCC1143
